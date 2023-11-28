@@ -1,0 +1,23 @@
+/* static fonts */
+
+/* @font-face {
+  font-display: swap;
+  font-family: Font;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/font.woff2') format('woff2'),
+    url('../fonts/font.woff') format('woff');
+} */
+
+/* variable fonts */
+
+/* @font-face {
+  font-display: swap;
+  font-family: 'Font VF';
+  font-style: normal;
+  font-weight: 100 900;
+  src:
+    url('../fonts/font-vf.woff2') format('woff2 supports variations'),
+    url('../fonts/font-vf.woff2') format('woff2-variations');
+} */

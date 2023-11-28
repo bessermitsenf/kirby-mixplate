@@ -1,0 +1,45 @@
+############## Project ###############
+.env
+.idea/
+node_modules/
+.DS_Store
+Thumbs.db
+Icon
+/kirby/
+/vendor/
+/content/**/.lock
+.php-cs-fixer.cache
+/.dev
+
+############### Kirby 3 ###############
+
+/public/media/*
+!/public/media/index.html
+
+/storage/cache/*
+!/storage/cache/index.html
+
+/storage/accounts/.logins
+
+/storage/sessions/*
+!/storage/sessions/index.html
+
+/storage/logs/*
+!/storage/logs/index.html
+
+# Exclude local config files
+/site/config/config.*.php
+!/site/config/config.example.com.php
+!/site/config/redirects.yml
+
+/site/config/.license
+
+# Exclude compiled assets
+/public/assets/*
+!/public/assets/index.html
+
+############### Plugins ################
+
+/site/plugins/*
+!/site/plugins/site
+!/site/plugins/template-stacks

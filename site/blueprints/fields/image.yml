@@ -1,0 +1,8 @@
+type: files
+label:
+  en: Image
+  de: Bild
+multiple: false
+layout: cards
+size: small
+query: page.images

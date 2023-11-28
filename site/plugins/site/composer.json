@@ -1,0 +1,17 @@
+{
+    "name": "site/site",
+    "description": "Site-specific libraries and helpers",
+    "type": "kirby-plugin",
+    "autoload": {
+        "psr-4": {
+            "Site\\Site\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabian Michael",
+            "email": "hallo@fabianmichael.de"
+        }
+    ],
+    "require": {}
+}

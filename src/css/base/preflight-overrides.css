@@ -1,0 +1,14 @@
+/**
+ * override display and alignment injected by Tailwinds
+ * preflight CSS
+ */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: inline-block;
+}

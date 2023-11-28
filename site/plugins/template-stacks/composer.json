@@ -1,0 +1,45 @@
+{
+  "name": "owebstudio/kirby-template-stacks",
+  "description": "Template stacks allows you to push to named stacks which can be rendered somewhere else in another snippet or template.",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "owebstudio",
+    "owebstudio-plugin",
+    "kirby",
+    "kirby-3",
+    "kirby3-plugin",
+    "kirby-template",
+    "kirby-stacks",
+    "kirby-template-stacks"
+  ],
+  "homepage": "https://owebstudio.com",
+  "support": {
+    "email": "support@owebstudio.com"
+  },
+  "authors": [
+    {
+      "name": "oweb studio",
+      "email": "contact@owebstudio.com",
+      "homepage": "https://owebstudio.com"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "extra": {
+    "installer-name": "kirby-stacks"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

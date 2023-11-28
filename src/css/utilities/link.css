@@ -1,0 +1,12 @@
+.link-external {
+  @apply relative whitespace-nowrap pr-3.5;
+}
+
+.link-external::after {
+  content: '\2197\FE0E'; /* ↗︎ NORTH EAST ARROW */
+  opacity: .6;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-37.5%);
+}

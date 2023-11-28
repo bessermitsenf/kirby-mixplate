@@ -1,0 +1,11 @@
+title: Default
+
+fields:
+  alt:
+    type: text
+    label:
+      en: Alt text
+      de: Alternativtext
+    help:
+      en: For search engines and assistive technology
+      de: Für Suchmaschinen und Hilfstechnologien

@@ -1,0 +1,14 @@
+label: structure
+columns:
+  main:
+    width: 2/3
+    sections:
+      drafts:
+        extends: sections/pages
+        status: draft
+      unlisted:
+        extends: sections/pages
+        status: unlisted
+      listed:
+        extends: sections/pages
+        status: listed

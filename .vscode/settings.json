@@ -1,0 +1,26 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "files.associations": {
+    "*.txt": "markdown",
+    ".stylelintrc": "json"
+  },
+  "search.exclude": {
+    "**/package-lock.json": true,
+    "**/composer.lock": true,
+    "**/yarn.lock": true,
+    "public/assets/**": true,
+    "**/.cache": true,
+    "**/vendor/**": true
+  },
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}

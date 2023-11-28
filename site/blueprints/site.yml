@@ -1,0 +1,6 @@
+title: Site
+
+tabs:
+  structure: tabs/site/structure
+  settings: tabs/site/settings
+  meta: tabs/meta/site
