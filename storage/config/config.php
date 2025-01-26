@@ -25,7 +25,7 @@ return [
 	// Plugin configuration
 
 	'arnoson.kirby-vite' => [
-		'entry' => 'js/index.js',
+		'entry' => 'js/src/index.js',
 	],
 
 	'fabianmichael.meta' => [

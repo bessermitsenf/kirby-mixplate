@@ -1,8 +1,0 @@
-[data-theme="default"] {
-  --theme--background: var(--color-white);
-  --theme--foreground: var(--color-black);
-}
-
-[data-theme] {
-  @apply bg-theme-background text-theme-foreground;
-}

@@ -1,1 +1,2 @@
-import '../css/index.css';
+import '@bessermitsenf/seedling'
+import '../css/index.css'

@@ -1,5 +1,32 @@
+# deny from all
+
+RewriteEngine On
+RewriteBase /
+
+# redirect all to example.org
+# RewriteCond %{http_host} !^(www\.)?example.org [NC]
+# RewriteRule ^(.*)$ https://example.org/$1 [R=301,NC]
+
+# force no-www
+# RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+# RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# expires headers
+
+ExpiresActive on
+ExpiresDefault                                      "access plus 1 month"
+ExpiresByType text/html                             "access plus 0 seconds"
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/font-woff2                "access plus 1 month"
+ExpiresByType application/javascript                "access plus 1 year"
+ExpiresByType text/css                              "access plus 1 year"
+
+<filesMatch "\.(ico|jpe?g|png|gif|pdf|mp3|mp4|ogm|ogv|ogg|webm|weba|m4u|x-m4u|woff2?|svg)$">
+  Header set Cache-Control "public, max-age=31000000"
+</filesMatch>
+
 # Kirby .htaccess
-# revision 2022-09-15
+# revision 2020-06-15
 
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -43,7 +70,7 @@ RewriteRule ^(.*) index.php [L]
 </IfModule>
 
 # pass the Authorization header to PHP
-SetEnvIf Authorization "(.+)" HTTP_AUTHORIZATION=$1
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 
 # compress text file responses
 <IfModule mod_deflate.c>

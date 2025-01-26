@@ -7,7 +7,7 @@ Thumbs.db
 Icon
 /kirby/
 /vendor/
-/content/**/.lock
+/content
 .php-cs-fixer.cache
 /.dev
 
@@ -28,18 +28,10 @@ Icon
 !/storage/logs/index.html
 
 # Exclude local config files
-/site/config/config.*.php
-!/site/config/config.example.com.php
-!/site/config/redirects.yml
+/storage/config/*
+!/storage/config/config.php
+!/storage/config/config.*.php
+!/storage/config/env.example.php
+!/storage/config/vite.config.php
 
-/site/config/.license
-
-# Exclude compiled assets
-/public/assets/*
-!/public/assets/index.html
-
-############### Plugins ################
-
-/site/plugins/*
-!/site/plugins/site
-!/site/plugins/template-stacks
+/storage/config/.license

@@ -1,7 +1,0 @@
-type: textarea
-size: tiny
-label: Text
-buttons: false
-help:
-  en: No formatting allowed, but line breaks will be recognized.
-  de: Keine Formatierung möglich, Zeilenumbrüche sind erlaubt
